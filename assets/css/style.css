@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Background color of body */
+
+body {
+    background-color: rgb(227, 253, 240);
+}
