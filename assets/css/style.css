@@ -4,28 +4,31 @@
     margin: 0;
 }
 
-/* Background color of body */
-
+/* Background color */
 body {
-    background-color: rgb(227, 253, 240);
+    background-color:rgb(227, 253, 240)
 }
 
 /* Start header/nav styling */
 
 header {
     padding: 20px 35px;
+    background-color: #036970;
 }
 
 header h1 {
     font-weight: bold;
+    letter-spacing: 0.04cm;
     font-size: 36px;
-    margin: 0
+    color: hsl(166, 28%, 85%);
     display: inline;
+    margin: 0;
 }
 
 header nav {
     float: right;
-    margin: 7px 0;
+    margin: 2px 0;
+    display: inline;
 }
 
 header nav ul li {
@@ -35,6 +38,45 @@ header nav ul li {
 header nav ul li a {
     margin: 0 30px; 
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 20px;
+    color:hsl(166, 28%, 85%)
+}
+
+nav a:hover {
+    background-color: #1bc0b2;
+}
+/* End header/nav styling */
+
+/* Hero styling */
+
+.hero-image {
+    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;  
+}
+
+.hero-text {
+    color: hsl(166, 28%, 85%);
+}
+
+.hero-text h2 {
+    text-align: right;
+    position: relative; 
+    padding: 2px;
+    bottom: -130px;
+    margin-right: 10px;
+}
+
+.hero-text h3 {
+    text-align: right;
+    position: relative; 
+    padding: 2px;
+    bottom: -135px;
+    margin-right: 10px;
+    font-style: italic;
 }
 
