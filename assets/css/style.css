@@ -9,3 +9,32 @@
 body {
     background-color: rgb(227, 253, 240);
 }
+
+/* Start header/nav styling */
+
+header {
+    padding: 20px 35px;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0
+    display: inline;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px; 
+    font-weight: lighter;
+    font-size: 22px;
+}
+
