@@ -122,7 +122,7 @@ content {
  }
 
 .work-title {
-    margin-bottom: 600px; 
+    margin-bottom: 675px; 
     color: black;
     text-align-last: right;
     padding: 20px;
@@ -277,9 +277,46 @@ content {
     padding: 40px;
 }
 
-.contact-me {
+.contact-me-text {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family:'Times New Roman', Times, serif;
+    display: inline;
 }
+
+.contact-me-text h1 {
+    font-weight: bold;
+    letter-spacing: 0.04cm;
+    font-size: 36px;
+    margin: 20;
+}
+
+.contact-me-text nav {
+    display: inline;
+    text-align: center;
+    padding: 20px
+}
+
+.contact-me-text nav ul li {
+    display: inline;
+}
+
+.contact-me-text nav ul li a {
+    margin: 20px;
+    font-weight: lighter;
+    font-size: 22px;
+    color: black;
+}
+
+.contact-me-text nav a:hover {
+    background-color: rgb(73, 49, 207);
+}
+
+#phone p {
+    visibility: hidden;
+}
+/* End Contact Me Styling */
+
+/* End CSS */
+
+
