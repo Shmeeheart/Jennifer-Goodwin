@@ -254,10 +254,8 @@ content {
 }
 
 .serenity-now-flex img {
-    max-width: 400px;
-    max-height: 400px;
     margin: 20px;
-    margin-top: 75px;
+    margin-top: 15px;
     border-color: lightgoldenrodyellow;
     border-width: 10px;
     border-style: solid;
